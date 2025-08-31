@@ -57,6 +57,47 @@ a {
 .navbar a:hover {
   color: var(--second-color);
 }
+  .toggle-btn{
+  color: var(--text-color);
+  font-size: 1.5rem;
+  display: none;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 255, 255, 0.5);
+}
+.dropdown-menu.open{
+  display: block;
+}
+
+/*Responsive-navbar*/
+@media (max-width: 1185px){
+  .navbar.logo a{
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .navbar{
+    padding: 1rem;
+  }
+}
+
+@media(max-width: 768px){
+  .navbar a:not(.logo){
+    display: none;
+  }
+  .toggle-btn{
+    display: block !important;
+  }
+  .header{
+    position: relative;
+  }
+}
+
+
 /*Home-section*/
 .home {
   z-index: 1;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/stlyle.css" />
+    <link rel="stylesheet" href="stlyle.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -19,8 +19,20 @@
         <a href="#About">About</a>
         <a href="#Skills">Skills</a>
         <a href="#Contact">Contact</a>
+
+        <button class="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
     </header>
+    <!--Dropdown-menu-->
+
+    <div class="dropdown-menu">
+       <a href="#home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
+    </div>
     <!--home-section-->
     <section class="home" id="home">
       <div class="container">
@@ -133,5 +145,6 @@
         </div>
         <p id="p-footer">Copyright © 2025 - Victoria Martinez</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
