@@ -7,7 +7,7 @@ toggleBtn.addEventListener('click',()=>{
 //close-menu
 const dropdownLinks = document.querySelectorAll('.dropdown-menu a');
 dropdownLinks.forEach(link => {
-    link.addEventListener('click'() => {
+    link.addEventListener('click', ()=> {
         dropdownMenu.classList.remove('open');
     });
 });
