@@ -70,7 +70,7 @@ a {
   right: 0;
   width: 100%;
   z-index: 999;
-  background:var(--bg-color);-
+  background:var(--bg-color);
 }
 .dropdown-menu a{
   display: block;
@@ -254,8 +254,7 @@ h4 {
 /* Contact-section*/
 .Contact{
   background: var(--bg-color);
-  margin-left: 36rem;
-  margin-top: 6rem;
+  margin: 6rem auto 0; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,7 +272,7 @@ form , .form-bx ,input , .f-messaje , textarea{
   width: 100%;
   max-width: 400px;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: var(--bg-color);
   color: var(--text-color);
   border-radius: 2rem;
